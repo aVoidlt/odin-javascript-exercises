@@ -1,10 +1,9 @@
 const reverseString = function(string) {
-    let reversedStrArray = [];
-    for (let i = string.length-1; i >= 0; i--) {
-        reversedStrArray.push(string[i]);
+    let reverseString = '';
+    for (let i = string.length - 1; i >= 0; i--) {
+        reverseString += string[i];
     }
-    let returnString = reversedStrArray.join('');
-    return returnString;
+    return reverseString;
 };
 
 // console.log(reverseString("Hello World"));
